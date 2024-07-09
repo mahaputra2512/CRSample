@@ -20,4 +20,4 @@ jobs:
           tools: cs2pr, phpcs
       
       - name: Run phpcs
-        run: phpcs --report-diff .
+        run: phpcs --report-summary --report-diff .
